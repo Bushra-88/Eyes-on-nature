@@ -1,0 +1,147 @@
+body {
+  background-image: url(https://images.pexels.com/photos/3800074/pexels-photo-3800074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(
+    to right,
+    #c1c161 0%,
+    #c1c161 0%,
+    #d4d4b1 100%
+  ); */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+svg {
+  display: block;
+}
+h1 {
+  text-align: center;
+  color: #5f6f52;
+}
+h2 {
+  text-align: center;
+  color: #7aba78;
+}
+p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 20px;
+  line-height: 21px;
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff4f4;
+  border-radius: 20px;
+  padding: 20px;
+}
+img {
+  width: 100%;
+}
+.intro-img {
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
+.intro-img:hover {
+  filter: contrast(80%);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+  margin: 15px 0;
+}
+.grid img {
+  width: 100%;
+  border-radius: 0 20px 0px 20px;
+}
+.grid img:hover {
+  transform: scale(2);
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #060d06;
+  font-weight: bold;
+  font-size: 16px;
+}
+.theme-button {
+  padding: 10px 15px;
+  color: black;
+  background-color: #ffc26f;
+  border: 1px solid #ffc26f;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 150ms ease-in-out;
+}
+
+.theme-button:hover {
+  background-color: #060d06;
+  color: #fff4f4;
+  cursor: pointer;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px 15px;
+  color: black;
+  background-color: #ffc26f;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #ffc26f;
+  transition: all 150ms ease-in-out;
+  font-weight: 600;
+}
+button:hover {
+  color: white;
+  background-color: #060d06;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+footer a {
+  background-color: whitesmoke;
+  color: #f05941;
+}
+span {
+  background-color: whitesmoke;
+  color: #060d06;
+  font-size: 16px;
+  font-weight: 600;
+}
+.dark {
+  /* background: linear-gradient(to right, #434343 0%, black 100%); */
+  background-image: url(https://images.pexels.com/photos/7210209/pexels-photo-7210209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dark .container {
+  background-color: #525252;
+}
+.dark h2 {
+  color: #84c69b;
+}
+.dark h1 {
+  color: hsl(93, 28%, 36%);
+}
+.dark p {
+  color: white;
+}
+.dark a {
+  color: #f05941;
+  background-color: black;
+}
+.dark span {
+  color: white;
+  background-color: black;
+}
